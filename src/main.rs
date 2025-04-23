@@ -174,13 +174,6 @@ impl Renderable for TestRenderable<'_> {
     }
 }
 
-// fn render_result(result: &Either<Vec<FileSystemEntry>, FileSystemEntry>) -> impl Renderable {
-//     match result {
-//         Either::Left(entries) => render_list(&String::new(), entries).render().into_inner(),
-//         Either::Right(entry) => render_item(entry).render().into_inner(),
-//     }
-// }
-
 struct MonacoRenderable(String);
 
 impl Renderable for MonacoRenderable {
