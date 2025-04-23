@@ -8,4 +8,4 @@ axum = "0.8.1"
 either = "1.15.0"
 hypertext = "0.6.2"
 serde = "1.0.218"
-tokio = { version = "1.43.0", features = ["full"] }
+tokio = { version = "1.43.1", features = ["full"] }
